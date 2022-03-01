@@ -1,0 +1,53 @@
+/* html,
+body {
+  margin: 0;
+  padding: 0;
+}
+div#header {
+  position: relative;
+}
+div#header h1 {
+  height: 80px;
+  line-height: 80px;
+  margin: 0;
+  padding-left: 10px;
+  background: #e0e0e0;
+  color: #292929;
+}
+
+.wrapper {
+
+}
+
+.radio-btn {
+  margin: 0 26px;
+  padding: 10px;
+}
+
+.radio-btn .btn {
+  margin: 20px 10px 20px 0;
+}
+.radio-btn span {
+  margin: 5px;
+}
+
+label {
+  margin-left: 12px;
+  margin-bottom: -8px;
+}
+.search-btn {
+  margin-right: 70px;
+  margin-top: 12px;
+  margin-left: 11px;s
+  padding: 1px 2px;
+} */
+
+form {
+  display: grid;
+  width: 400px;
+  /* Form outline */
+  padding: 1em;
+  border: 1px solid #ccc;
+  border-radius: 1em;
+  row-gap: 12px;
+}

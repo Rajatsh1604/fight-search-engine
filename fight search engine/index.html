@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flight Search Engine</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>   
+        
+         <form>
+                <div class="radio-btn">
+                    <label for="chkreturn">
+                    <input type="radio" class="btn" id="chkreturn" name="dateCheck" onclick="returnCheck()"/>
+                    Return
+                    </label>
+                    <label for="chkoneWay">
+                    <input type="radio" class="btn" id="chkoneWay" name="dateCheck" onclick="returnCheck()"/>
+                    One Way
+                    </label>
+                </div>
+        
+                
+
+                    <input type="text" placeholder="Enter origin city" id="originCity" class="input-form"/>
+                    
+                    <input type="text" placeholder="Enter Destination city"  id="destinationCity" class="input-form"/>
+                    
+                    <label>Departure date</label>
+                    <input type="date" id="departureDate" class="input-form" style="visibility:visible"/>
+                    
+                    <div id="oneWaycheck" style="display: none">
+                    <label>Return date</label>
+                    <input type="date" id="returnDate" class="input-form"/>
+                    </div>
+
+                    <input type="number" id="passengersCount" placeholder="Passengers" class="input-form"/>
+                    
+                    <button type="submit" id="btn"" class="search-btn">Search</button>
+
+                    <div id="msg">
+                        <pre></pre>
+                    </div>
+                
+                
+             </form>
+
+   
+</body>
+<script src="myscripts.js"></script>
+</html>
